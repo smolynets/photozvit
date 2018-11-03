@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+class Photo(models.Model):
+    title = models.CharField(max_length=200)
+    image = models.ImageField(blank=False, null=False)
