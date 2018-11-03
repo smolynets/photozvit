@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% load static from staticfiles %}
+
+{% block meta_title %}Photozvit{% endblock meta_title %}
+
+{% block title %}Photozvit{% endblock title %}
+
+{% block content %}
+    <div class="slider">
+        {% for img in photo %}
+            <div>
+                <img src="{{ img.image.url }}" />
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content %}

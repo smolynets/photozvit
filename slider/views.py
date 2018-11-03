@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import Photo
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    photo = Photo.objects.all()
+    return render(request, 'oksana/index.html', {'photo': photo})
