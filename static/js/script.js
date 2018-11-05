@@ -1,8 +1,8 @@
 $(document).ready(function(e) {
     $('.slider').bxSlider({
-      slideWidth: 812,
-      slideHeight:200,
+      slideWidth: 612,
       minSlides: 1,
+      maxslides: 1,
       slideMargin: 0,
       controls: false,
       auto: true,

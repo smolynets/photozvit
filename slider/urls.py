@@ -7,6 +7,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('about-author', views.about, name='about'),
 ] 
 
 if DEBUG == True:
