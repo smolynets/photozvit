@@ -28,6 +28,14 @@
                     </li>   
                 </ul>
             </div>
+            {% if show == 1 %}
+                {% csrf_token %}
+                    <div><a href='{% url 'like' %}' 
+                        class="btn btn-primary to_basket">Подобається</a>
+                    </div>
+            {% else %}
+                {{ count }} людям це сподобалося
+            {% endif %}
         </nav>
     </div>
     {% block content %}{% endblock content %}

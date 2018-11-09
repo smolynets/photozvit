@@ -8,6 +8,7 @@ from . import views
 urlpatterns = [
     path('', views.index, name='index'),
     path('about-author', views.about, name='about'),
+    path('like', views.like, name='like'),
 ] 
 
 if DEBUG == True:
