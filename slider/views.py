@@ -14,7 +14,7 @@ def index(request):
         show = 1
     count = str(len(Like.objects.all()))
     photo = Photo.objects.all()
-    return render(request, 'oksana/index.html', {'photo': photo, 'show': show, 'count': count})
+    return render(request, 'index.html', {'photo': photo, 'show': show, 'count': count})
 
 def about(request):
     photo = Photo.objects.all()
