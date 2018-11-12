@@ -19,15 +19,15 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto menu">
                     <li class="nav-item">
-                        <a href="#id_one" class="font-Open_Sans font-size_16px subheadergrey line-height30">Перша</a>
+                        <a href="#id_one" class="font-Open_Sans font-size_16px subheadergrey line-height30">HTML/CSS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#id_two" class="font-Open_Sans font-size_16px subheadergrey line-height30">Друга</a>
+                        <a href="#id_two" class="font-Open_Sans font-size_16px subheadergrey line-height30">Поради</a>
                     </li> 
                     <li class="nav-item">
-                        <a href="#id_three" class="font-Open_Sans font-size_16px subheadergrey line-height30">Третя</a>
+                        <a href="#id_three" class="font-Open_Sans font-size_16px subheadergrey line-height30">Посилання</a>
                     </li>  
                 </ul>
             </div>
@@ -54,8 +54,8 @@
                     </div>
                 </div>
                 <div class="col-xs-10 col-sm-8 col-md-5 offset-xs-1 offset-sm-1 offset-md-1">
-                    <p>
-                        dfcdsvcdx sdad d ad afasd adasda asf wsefs fwsfdasd sfds asfsd wesf weqw wwe wdwe wfwedw  wewe we we we wer wer we wewe we we we we rwe wer werwe w dwedwedwq w ewedwedwe weewdew wedewe wdew e dwd we d wed f ew d ew d we d we d we d
+                    <p class="text1">
+                        13 листопада в Лавриківській школі був проведений майстер - клас по основам HTML/CSS вчителем інформатики Смолинець Оксаною Михайлівною. Учні верстали сайт - візитку (схожий на цей сайт) і робили перший крок в веб - розробку. HTML/CSS має з одної сторони мінімальний поріг входу в технологію, але з іншої сторони воно є обовязковою умовою створення будь - якого великого веб - проекту. 
                     </p>
                 </div>
             </div>
@@ -64,18 +64,10 @@
     <div class="container-two" id='id_two'>
         <div class="container">
             <div class="row">
-                <div class="col-xs-10 col-sm-8 col-md-5 offset-xs-1 offset-sm-1 offset-md-1">
-                    <div class="slider">
-                        {% for img in photo %}
-                            <div>
-                                <img src="{{ img.image.url }}" />
-                            </div>
-                        {% endfor %}
-                    </div>
-                </div>
-                <div class="col-xs-10 col-sm-8 col-md-5 offset-xs-1 offset-sm-1 offset-md-1">
-                    <p>
-                        dfcdsvcdx sdad d ad afasd adasda asf wsefs fwsfdasd sfds asfsd wesf weqw wwe wdwe wfwedw  wewe we we we wer wer we wewe we we we we rwe wer werwe w dwedwedwq w ewedwedwe weewdew wedewe wdew e dwd we d wed f ew d ew d we d we d we d
+                <div class="col-xs-10 col-sm-10 col-md-8 offset-xs-1 offset-sm-1 offset-md-2">
+                    <p class="text2">
+                        Якщо ви активно цікавитеся IT, то почати можна саме з HTML/CSS. Звичайно, як і будь-яка інша річ, освоєння цієї технології вимагає наполегливості і терпіння, але воно того варте. Тим більше, що сторені проекти можна запускати на будь-якому пристрої з браузером. А якщо "малювання" в браузері вже стає замало, то можна почати вивчати мову програмування, яка працює в браузері - Javascript (не Java). Вона дозволяє робити по-справжньому інтерактивні сайти. Ця сфера веб-розробки називається Front-End. Тобто, розробка всього того, що буде "крутитися" в браузері. Такі фахівці зараз особливо затребувані і високооплачувані. Іншим варіантом в веб-розробці є Back-End - написання коду, який працює на сервері.
+                        Найпоширенішими мовами в цьому випадку є Javascript (платформа Node.js), Java, Php, Python, Ruby, C# та інші.
                     </p>
                 </div>
             </div>
@@ -84,18 +76,13 @@
     <div class="container-three" id='id_three'>
         <div class="container">
             <div class="row">
-                <div class="col-xs-10 col-sm-8 col-md-5 offset-xs-1 offset-sm-1 offset-md-1">
-                    <div class="slider">
-                        {% for img in photo %}
-                            <div>
-                                <img src="{{ img.image.url }}" />
-                            </div>
-                        {% endfor %}
-                    </div>
-                </div>
-                <div class="col-xs-10 col-sm-8 col-md-5 offset-xs-1 offset-sm-1 offset-md-1">
-                    <p>
-                        dfcdsvcdx sdad d ad afasd adasda asf wsefs fwsfdasd sfds asfsd wesf weqw wwe wdwe wfwedw  wewe we we we wer wer we wewe we we we we rwe wer werwe w dwedwedwq w ewedwedwe weewdew wedewe wdew e dwd we d wed f ew d ew d we d we d we d
+                <div class="col-xs-10 col-sm-10 col-md-4 offset-xs-1 offset-sm-1 offset-md-4">
+                    <p class="text3">
+                        Ось декілька корисних посилань:<br>
+                        <a href="https://github.com/OksanaMavdryk/master-class">Приклад коду майстер-класу</a><br>
+                        <a href="https://courses.prometheus.org.ua/courses/course-v1:LITS+114+2017_T4/about">Prometeus Web Ui (HTML/CSS)</a><br> 
+                        <a href="https://learn.javascript.ru/">learn.javascript.ru</a><br>
+                        <a href="http://www.vitaliypodoba.com/tutorials/python2-beginners-course/">Python 2: Курс Молодого Бійця</a><br>
                     </p>
                 </div>
             </div>
